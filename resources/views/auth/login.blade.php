@@ -60,6 +60,9 @@
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     {{ __('Forgot Your Password?') }}
                                 </a>
+
+                                <a href="{{ url('auth/google') }}" class="btn btn-primary">Log with Google</a>
+
                             </div>
                         </div>
                     </form>
