@@ -79,7 +79,7 @@
             @endif
 
             <div class="content">
-                <!--<div class="title m-b-md">
+                <<div class="title m-b-md">
                     Laravel
                 </div>
 
@@ -89,7 +89,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>-->
+                </div>>
             <div class="row">
                 <div class="card" style="width: 18rem; margin-right:10px;">
                     <img class="card-img-top" src="http://www.rentseeker.ca/Images/students.png" alt="Card image cap">
