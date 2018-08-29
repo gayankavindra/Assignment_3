@@ -66,8 +66,10 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
-
-                                <a href="{{ url('auth/google') }}" class="btn btn-primary">Reg with Google</a>
+                            </div>
+                            <div class="col-md-6 offset-md-6">
+                                <a href="{{ url('auth/google') }}" class="btn btn-primary">Reg with google</a>
+                                <a href="{{ url('auth/github') }}" class="btn btn-primary">Reg with github</a>
                             </div>
                         </div>
                     </form>
