@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: black;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -76,20 +76,32 @@
                     @endauth
                 </div>
             @endif
-
+            
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+            <br>
+                <div class="title m-b-md" style="font-family:courier;">
+                    Student information system
+
+                  </div>
+                  
+                
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <img src="https://2.bp.blogspot.com/-q_ybNnQQTh8/VHcfL-1j0jI/AAAAAAAAFPk/JO2dD69ANLM/s1600/students.png"alt="gayan" style="width:30%;">
+              
+                <h2>Members in Group No 04</h2>
+                
+                    <a href="https://github.com/MReekan">M. Reekan(SE/2014/027)</a><br>
+                    <a href="https://github.com/gayankavindra">G.K.H. Uluwatta(SE/2014/028)</a><br>
+                    <a href="https://github.com/RuwanSudheera">R.A.R.S. Wimalasena(SE/2014/029)</a><br>
+                    <a href="https://github.com/Pubuduboteju">W.P.A. Boteju(SE/2014/031)</a><br>
+                    <a href="https://github.com/YasiruUOK">W.A.Y. Kavinda(SE/2014/036)</a><br>
+                    <a href="https://github.com/Niroshan82">K. Niroshan(SE/2014/039)</a><br>
+                    <a href="https://github.com/BPavitran">B. Pavitran(SE/2014/027)</a><br>
+                    
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
