@@ -20,6 +20,7 @@
    <div align="center">
     <a href="{{ route('export_excel.export') }}" class="btn btn-success">Export to Excel</a>
    </div>
+   <a href="{{ route('home') }}" class="btn btn-success">Home</a>
    <br />
    <div class="table-responsive">
     <table class="table table-striped table-bordered">

@@ -23,6 +23,10 @@
 	        <a class="nav-link" href="{{ url('/create')}}">Register</a>
 	      </li>
 
+				<li class="nav-item">
+	        <a class="nav-link" href="{{ url('/export_excel')}}">Genarate Excel Report</a>
+	      </li>
+
 	    </ul>
 
 	  </div>
