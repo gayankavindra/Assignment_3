@@ -16,9 +16,9 @@
  <body>
   <br />
   <div class="container">
-   <h3 align="center">Export Data to Excel in Laravel using Maatwebsite</h3><br />
+   <h3 align="center">Export Student Data to Excel in Laravel using Maatwebsite</h3><br />
    <div align="center">
-    <a href="{{ route('export_excel.excel') }}" class="btn btn-success">Export to Excel</a>
+    <a href="{{ route('export_excel.export') }}" class="btn btn-success">Export to Excel</a>
    </div>
    <br />
    <div class="table-responsive">

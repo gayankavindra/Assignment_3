@@ -40,3 +40,5 @@ Route::resource('students', 'StudentController');
 Route::get('/export_excel', 'ExportExcelController@index');
 
 Route::get('/export_excel/excel', 'ExportExcelController@excel')->name('export_excel.excel');
+
+Route::get('export_excel/export', 'ExportExcelController@export')->name('export_excel.export');

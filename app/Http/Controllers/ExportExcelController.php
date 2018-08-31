@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 use App\Student;
 use DB;
 //use Maatwebsite\Excel\Excel;
-use Excel;
+//use Excel;
+use Maatwebsite\Excel\Concerns\Exportable;
 //use Maatwebsite\Excel\Facades\Excel;
+
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ExportExcelController extends Controller
 {
@@ -32,11 +37,19 @@ class ExportExcelController extends Controller
        
       );
      }
-     Excel::download('Student Data', function($excel) use ($student_array){
-      $excel->setTitle('Student Data');
-      $excel->sheet('Student Data', function($sheet) use ($student_array){
-       $sheet->fromArray($student_array);
-      });
-     })->download('xls');
+    // Excel::download('Student Data', function($excel) use ($student_array){
+    //   $excel->setTitle('Student Data');
+    //   $excel->sheet('Student Data', function($sheet) use ($student_array){
+    //    $sheet->fromArray($student_array);
+    //   });
+    //  })->download('xlsx',\Maatwebsite\Excel\Excel::XLSX);
+
+    
+
+    }
+
+    public function export()
+    {
+        return Excel::download(new UsersExport(), 'students.xlsx');
     }
 }
