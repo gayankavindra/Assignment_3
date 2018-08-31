@@ -36,8 +36,8 @@ Route::get('/create', function () {
     return view('create');
 });
 
-Route::post('/insert', 'CreatesController@add');
-Route::get('/update/{id}', 'CreatesController@update');
-Route::post('/edit/{id}', 'CreatesController@edit');
+Route::post('/insert', 'CreatesController@add')->middleware('admin');
+Route::get('/update/{id}', 'CreatesController@update')->middleware('admin');
+Route::post('/edit/{id}', 'CreatesController@edit')->middleware('admin');
 Route::get('/read/{id}', 'CreatesController@read');
-Route::get('/delete/{id}', 'CreatesController@delete');
+Route::get('/delete/{id}', 'CreatesController@delete')->middleware('admin');
