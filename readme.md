@@ -8,7 +8,7 @@ System Configuration Steps
 
 - Clone the project by using GitHub Desktop or through command prompt/ or download the project zip file         manually
 - After setting the terminal into the root folder, run the command "Composer install" in the command prompt     in oder to install all the required dependencies
-- Inside thiis cloned or downloaded zip file, you can't find the .env file. So manually that has to be          created according to your Db configurations(In here we have included that in the root folder). By default     configurations in the given .env file is as follows
+- Inside this cloned or downloaded zip file, you can't find the .env file. So manually that has to be          created according to your Db configurations(In here we have included that in the root folder). By default     configurations in the given .env file is as follows
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
