@@ -36,3 +36,7 @@ Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
 
 Route::resource('students', 'StudentController');
+
+Route::get('/export_excel', 'ExportExcelController@index');
+
+Route::get('/export_excel/excel', 'ExportExcelController@excel')->name('export_excel.excel');
